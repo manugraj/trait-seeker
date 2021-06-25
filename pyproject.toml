@@ -1,0 +1,50 @@
+[tool.poetry]
+name = "trait-seeker"
+version = "0.1.0"
+description = "Seek personality traits from text"
+authors = ["Manu <grajmanu@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+numpy = "1.19.3"
+gunicorn = "^20.1.0"
+Werkzeug = "^2.0.1"
+wget = "^3.2"
+fastapi = "^0.65.2"
+loguru = "^0.5.3"
+uvicorn = {extras = ["standard"], version = "^0.14.0"}
+redis = "^3.5.3"
+python-dotenv = "^0.18.0"
+flake8 = "^3.9.2"
+python-multipart = "^0.0.5"
+pandas = "^1.2.5"
+opencv-python = "^4.5.2"
+cmake = "^3.20.4"
+argparse = "^1.4.0"
+dlib = "^19.22.0"
+imutils = "^0.5.4"
+tika = "^1.24"
+Wave = "^0.0.2"
+nltk = "^3.6.2"
+gensim = "^4.0.1"
+seaborn = "^0.11.1"
+scikit-learn = "^0.24.2"
+dill = "^0.3.4"
+keras = "^2.4.3"
+wordcloud = "^1.8.1"
+tensorflow = "^2.5.0"
+beautifulsoup4 = "^4.9.3"
+scipy = "1.4.1"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^3.9.2"
+autoflake = "^1.4"
+black = "^21.6b0"
+pytest = "^6.2.4"
+mypy = "^0.910"
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
